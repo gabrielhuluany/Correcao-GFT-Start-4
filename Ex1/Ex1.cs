@@ -17,12 +17,12 @@ class Program {
         sucesso = false;
       }
 
-      if(lista[0] > lista[1]) {
-        Console.Write("Digite um valor inicial menor ou igual ao valor final!\n");
+      if(lista[1] < lista[0]) {
+        Console.Write("Digite um valor final maior ou igual ao valor inicial!\n");
         sucesso = false;
       }
 
-      if(lista[0] >= 0 && lista[0] <= lista[1]) {
+      if(lista[0] >= 0 && lista[1] >= lista[0]) {
         //Console.WriteLine("[" + lista[0] + "," + lista[1] + "]\n");
         sucesso = true;
       }
