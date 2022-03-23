@@ -2,12 +2,14 @@
 
 class Program {
   public static void Main (string[] args) {
+    int id = 0;
+
     ContaCorrente cc = new ContaCorrente();
     ContaPoupanca cp = new ContaPoupanca();
 
-    cc.setNumero(001);
+    cc.setNumero(id++);
     cc.setTitular("Gabriel");
-    cc.setSaldo(100);
+    cc.setSaldo(1000);
     Console.WriteLine("Tipo da conta: " + cc.GetType());
     Console.WriteLine("Número da conta: " + cc.getNumero());
     Console.WriteLine("Títular da conta: " + cc.getTitular());
@@ -15,9 +17,9 @@ class Program {
     Console.WriteLine("Rendimento: R$" + cc.Rendimento());
     Console.WriteLine("Imposto: R$" + cc.calcularImposto() + "\n");
 
-    cp.setNumero(002);
+    cp.setNumero(id++);
     cp.setTitular("Gustavo");
-    cp.setSaldo(100);
+    cp.setSaldo(5000);
     Console.WriteLine("Tipo da conta: " + cp.GetType());
     Console.WriteLine("Número da conta: " + cp.getNumero());
     Console.WriteLine("Títular da conta: " + cp.getTitular());
