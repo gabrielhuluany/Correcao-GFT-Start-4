@@ -11,5 +11,4 @@ public abstract class Conta : Imposto {
 
     public abstract double Rendimento();
     public abstract double calcularImposto();
-
 }
