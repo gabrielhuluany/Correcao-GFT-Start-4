@@ -34,8 +34,7 @@ class Program {
       }
     }
 
-    Console.WriteLine("{0}", string.Join(" ", impares));
-    Console.WriteLine("\n");
+    Console.WriteLine("\n{0}\n", string.Join(" ", impares));
 
     Console.WriteLine("Pressione qualquer tecla para fechar esta janela...");
     Console.ReadKey();
