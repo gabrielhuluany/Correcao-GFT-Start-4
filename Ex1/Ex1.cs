@@ -21,7 +21,7 @@ class Program {
         sucesso = false;
       }
 
-      if(lista[0] >= 0 && lista[0] < lista[1]) {
+      if(lista[0] >= 0 && lista[0] <= lista[1]) {
         Console.WriteLine("[" + lista[0] + "," + lista[1] + "]\n");
         sucesso = true;
       }
