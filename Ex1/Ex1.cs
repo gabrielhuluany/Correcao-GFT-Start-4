@@ -17,7 +17,7 @@ class Program {
       }
 
       if(lista[0] > lista[1]) {
-        Console.Write("Digite um valor inicial menor que o valor final!\n");
+        Console.Write("Digite um valor inicial menor ou igual ao valor final!\n");
         sucesso = false;
       }
 
