@@ -1,9 +1,9 @@
 using System;
 
 public abstract class Conta : Imposto {
-    protected int numero { get; set; }
-    protected String titular { get; set; }
-    protected double saldo { get; set; }
+    protected int numero;
+    protected String titular;
+    protected double saldo;
 
     public Conta() {
 
