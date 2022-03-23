@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 
 class Program {
   public static void Main (string[] args) {
@@ -15,9 +13,7 @@ class Program {
     Console.WriteLine("Títular da conta: " + cc.getTitular());
     Console.WriteLine("Saldo da conta: R$" + cc.getSaldo());
     Console.WriteLine("Rendimento: R$" + cc.Rendimento());
-    Console.WriteLine("Imposto: R$" + cc.calcularImposto());
-
-    Console.WriteLine("\n");
+    Console.WriteLine("Imposto: R$" + cc.calcularImposto() + "\n");
 
     cp.setNumero(002);
     cp.setTitular("Gustavo");
@@ -27,9 +23,7 @@ class Program {
     Console.WriteLine("Títular da conta: " + cp.getTitular());
     Console.WriteLine("Saldo da conta: R$" + cp.getSaldo());
     Console.WriteLine("Rendimento: R$" + cp.Rendimento());
-    Console.WriteLine("Imposto: R$" + cp.calcularImposto());
-
-    Console.WriteLine("\n");
+    Console.WriteLine("Imposto: R$" + cp.calcularImposto() + "\n");
 
     Console.WriteLine("Pressione qualquer tecla para fechar esta janela...");
     Console.ReadKey();
