@@ -30,7 +30,7 @@ class Program {
 
     for(int i = 0; i <= (lista[1] - lista[0]); i++) {
       if((lista[0] + i) % 2 != 0) {
-        impares.Add((lista[0] + i));
+        impares.Add(lista[0] + i);
       }
     }
 
